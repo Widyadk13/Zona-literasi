@@ -109,7 +109,7 @@ const Bookslist = () => {
         }
 
         return (
-          <div className='col-3 mb-3' key={item.id}>
+          <div className='col-sm-3' key={item.id}>
             <BookCard
               thumbnail={thumbnail}
               title={item.volumeInfo.title}

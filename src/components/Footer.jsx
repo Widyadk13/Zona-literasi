@@ -1,35 +1,48 @@
-import React from "react"
-import { Container } from "reactstrap"
+import React from "react";
 
-const Footer = () =>
-<Container>
- <footer className="page-footer font-small blue pt-4">
-    <div className="container-fluid text-center text-md-left">
-        <div className="row">
-            <div className="col-md-6 mt-md-0 mt-3">
-                <h5 className="text-uppercase">ZONA LITERASI</h5>
-                <p>Membuat anda cerdas dengan banyak membaca</p>
-            </div>
-            
-            <div className="col-md-1 ml-auto">
-            <i class="fa-brands fa-instagram fa-3x"></i>
-                <ul className="list-unstyled">
-                    <li><a href="https://www.instagram.com/dandysetiawanp/?hl=id">Instagram</a></li>  
-                </ul>
-            </div>
-           
-            <div className="col-ml-ml-auto">
-            <i class="fa-brands fa-facebook fa-3x"></i>
-                <ul className="list-unstyled">
-                    <li><a href="https://www.instagram.com/dandysetiawanp/?hl=id">Facebook</a></li>  
-                </ul>
-            </div>
+
+const Footer = () => {
+  return (
+    <footer className="footer">
+    <div className="container">
+      <div className="row align-items-center">
+        <div className="col-md-4">
+          <span className="copyright">Copyright &copy; Zona Literasi 2022</span>
         </div>
+        <div className="col-md-4">
+          <ul className="list-inline social-buttons">
+            <li className="list-inline-item">
+              <a href="#something">
+              <i class="fa-brands fa-twitter fa-3x"></i>
+              </a>
+            </li>
+            <li className="list-inline-item">
+              <a href="#something">
+              <i class="fa-brands fa-facebook fa-3x"></i>
+              </a>
+            </li>
+            <li className="list-inline-item">
+              <a href="#something">
+              <i class="fa-brands fa-instagram-square fa-3x"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="col-md-4">
+          <ul className="list-inline quicklinks">
+            <li className="list-inline-item">
+            <i class="fa-brands fa-whatsapp fa-2x"></i>
+            </li>
+            <li className="list-inline-item">
+              <a href="#something">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div className="footer-copyright text-center py-3">© 2022 Copyright:
-        <a href="https://zonaliterasi.com/"> zonaliterasi.com</a>
-    </div>
-</footer>
-</Container>
+  </footer>
+    
+  );
+}
 
-export default Footer
+export default Footer;
