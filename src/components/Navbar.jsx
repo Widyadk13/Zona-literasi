@@ -10,15 +10,16 @@ export default class Example extends React.Component {
             isOpen: false
         };
     }
+
     toggle() {
         this.setState({
             isOpen: !this.state.isOpen
         });
     }
+
     render() {
         return (
-
-            <div>
+            <div class="navbar-light bg-white fixed-top mediumnavigation nav-up">
                 <Navbar color="warning" light expand="md">
                     <Container>
                         <NavbarBrand href="">
@@ -53,8 +54,6 @@ export default class Example extends React.Component {
                     </Container>
                 </Navbar>
             </div>
-
-
         );
     }
 }

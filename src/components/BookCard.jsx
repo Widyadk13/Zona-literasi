@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ModalFooter,Card, CardTitle, CardImg, CardBody, Button, Modal } from 'reactstrap';
+import { ModalFooter, Card, CardTitle, CardImg, CardBody, Button, Modal } from 'reactstrap';
 
 
 const BookCard = ({
@@ -13,12 +13,12 @@ const BookCard = ({
   previewLink,
   infoLink
 }) => {
-  
+
   const [modal, setModal] = useState(false);
   const toggle = () => setModal(!modal);
 
   return (
-    <Card  body inverse color="info" style={{ width: '250px' }} className='m-auto'>
+    <Card body inverse color="warning" style={{ width: '250px' }} className='m-auto'>
       <CardImg
         top
         style={{ width: '100%', height: '250px' }}
@@ -27,7 +27,7 @@ const BookCard = ({
       />
       <CardBody>
         <CardTitle className='card-title'>{title}</CardTitle>
-        <Button color="primary" onClick={toggle}>More info</Button>
+        <Button color="primary" onClick={toggle}>MORE INFO</Button>
       </CardBody>
       <Modal isOpen={modal} toggle={toggle}>
         <div className='modal-header d-flex justify-content-center'>
@@ -56,11 +56,11 @@ const BookCard = ({
           <div className='mt-3'>{description}</div>
         </div>
         <div className='modal-footer'>
-        <ModalFooter>
+          <ModalFooter>
             <Button color="primary" href={previewLink}>Read more</Button>{' '}
             <Button color="primary" href={infoLink}>Info Link</Button>
           </ModalFooter>
-      </div>
+        </div>
       </Modal>
     </Card>
   );
