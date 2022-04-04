@@ -11,7 +11,7 @@
 
 .card-title {
   overflow: hidden;
-  color: rgba(0, 0, 0, 0.85);
+  color: #ffffffd9;
   font-weight: 500;
   font-size: 16px;
   white-space: nowrap;
@@ -26,48 +26,48 @@
   text-align: center;
 }
 
-
-
+.bg-info {
+  background-color: #655d8a !important;
+}
 .modal-body {
- background-color: aqua;
+  background-color: #9ddac6;
 }
 
 .w-100 {
-  background-color: rgb(16, 43, 43);
+  background-color: white;
 }
 
 .font-small {
   background-color: #4f687c;
   color: white;
-
 }
 
-
 .text-md-left {
-text-align: center!important;
-
+  text-align: center !important;
 }
 
 .mt-1 {
-padding: 4rem 2rem;
-margin-bottom: 0rem;
-background-color: #e9ecef;
-border-radius: 0rem;
-
+  padding: 4rem 2rem;
+  margin-bottom: 0rem;
+  background-color: #e9ecef;
+  border-radius: 0rem;
 }
 
 .App {
-text-align: center;
+  text-align: center;
 }
 
 .bg-light {
-background-color: #c3cfdb!important;
+  background-color: #d885a3 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #362222;
 }
 
 .footer {
-background-color: 	#ffcc00;
+  background-color: #d885a3;
 }
-
-.navbar-light .navbar-nav .nav-link {
-color: rgb(255, 255, 255);
+a {
+  padding: 10px;
+  color: #5c5151;
 }

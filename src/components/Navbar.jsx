@@ -19,7 +19,7 @@ export default class Example extends React.Component {
         return (
 
             <div>
-                <Navbar color="warning" light expand="md">
+                <Navbar color="light" light expand="md">
                     <Container>
                         <NavbarBrand href="">
                             <img

@@ -27,7 +27,7 @@ const BookCard = ({
       />
       <CardBody>
         <CardTitle className='card-title'>{title}</CardTitle>
-        <Button color="primary" onClick={toggle}>More info</Button>
+        <Button color="secondary" onClick={toggle}>More info</Button>
       </CardBody>
       <Modal isOpen={modal} toggle={toggle}>
         <div className='modal-header d-flex justify-content-center'>
@@ -57,8 +57,8 @@ const BookCard = ({
         </div>
         <div className='modal-footer'>
         <ModalFooter>
-            <Button color="primary" href={previewLink}>Read more</Button>{' '}
-            <Button color="primary" href={infoLink}>Info Link</Button>
+            <Button color="dark" href={previewLink}>Read more</Button>{' '}
+            <Button color="dark" href={infoLink}>Info Link</Button>
           </ModalFooter>
       </div>
       </Modal>
