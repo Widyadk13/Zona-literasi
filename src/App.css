@@ -1,22 +1,3 @@
-.navbar-light .navbar-nav .nav-link {
-  color: rgb(255, 255, 255);
-
-}
-
-.jumbotron {
-  padding: 8rem 4rem;
-  margin-bottom: 2rem;
-  border-radius: 0.3rem;
-  background: url(https://wallpaperaccess.com/full/84248.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 60vh;
-  position: relative;
-  background-attachment: fixed;
-}
-
 .main-image {
   background: url(https://wallpaperaccess.com/full/84248.png);
   background-repeat: no-repeat;
@@ -30,12 +11,11 @@
 
 .card-title {
   overflow: hidden;
-  color: black;
+  color: rgba(0, 0, 0, 0.85);
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   white-space: nowrap;
   text-overflow: ellipsis;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .display-3 {
@@ -46,8 +26,10 @@
   text-align: center;
 }
 
+
+
 .modal-body {
-  background-color: aqua;
+ background-color: aqua;
 }
 
 .w-100 {
@@ -57,29 +39,58 @@
 .font-small {
   background-color: #4f687c;
   color: white;
+
 }
 
+
 .text-md-left {
-  text-align: center !important;
+text-align: center!important;
+
 }
 
 .mt-1 {
-  padding: 4rem 2rem;
-  margin-bottom: 0rem;
-  background-color: #e9ecef;
-  border-radius: 0rem;
+padding: 4rem 2rem;
+margin-bottom: 0rem;
+background-color: #e9ecef;
+border-radius: 0rem;
+
 }
 
 .App {
-  text-align: center;
-  font-size: larger;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
 }
 
 .bg-light {
-  background-color: #c3cfdb !important;
+background-color: #c3cfdb!important;
 }
 
 .footer {
-  background-color: #ffc107 !important;
+background-color: 	#ffcc00;
+}
+
+.navbar-light .navbar-nav .nav-link {
+color: rgb(255, 255, 255);
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #080808;
+  
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-top: 5rem;
+  margin-bottom: 1.2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+  /* jangan ganggu */
+  background: url(https://wallpaperaccess.com/full/84248.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+
 }

@@ -6,6 +6,7 @@ import {
   MDBCol
 } from "mdbreact";
 import Login from "./Login";
+import Feedback from "./feedback";
 
 
 const Header = () => {
@@ -21,6 +22,7 @@ const Header = () => {
             </p>
             <p className="lead">
               <Login />
+              <Feedback />
             </p>
             <hr className="my-2" />
             <p className="lead">FIND YOUR BOOKS HERE !! <i class="fa-solid fa-cloud-arrow-down"></i>
