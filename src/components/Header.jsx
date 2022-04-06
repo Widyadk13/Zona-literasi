@@ -5,7 +5,7 @@ import {
   MDBRow,
   MDBCol
 } from "mdbreact";
-import Login from "./Login";
+
 import Feedback from "./feedback";
 
 
@@ -21,7 +21,6 @@ const Header = () => {
               Berkat Internet dan penyimpanan cloud, perpustakaan digital mengatasi keterbatasan ini, memperluas wawasan siswa dalam belajar. Mereka dapat mengakses sejumlah besar pengetahuan dan berbagi konten dengan orang lain, memfasilitasi perluasan pendidikan.
             </p>
             <p className="lead">
-              <Login />
               <Feedback />
             </p>
             <hr className="my-2" />

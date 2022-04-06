@@ -1,5 +1,7 @@
 import React from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Container, } from 'reactstrap';
+import Login from "./Login";
+
 
 export default class Example extends React.Component {
     constructor(props) {
@@ -9,6 +11,7 @@ export default class Example extends React.Component {
         this.state = {
             isOpen: false
         };
+        this.user = localStorage.getItem("token")
     }
 
     toggle() {
@@ -18,7 +21,10 @@ export default class Example extends React.Component {
     }
 
     render() {
+
+
         return (
+
             <div class="navbar-light bg-white fixed-top mediumnavigation nav-up">
                 <Navbar color="warning" light expand="md">
                     <Container>
@@ -35,20 +41,19 @@ export default class Example extends React.Component {
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
-                                    <NavLink href="/components/">Home</NavLink>
+                                    <NavLink href="/LandingPage">Home</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="">About Us</NavLink>
+                                    <NavLink href="/AboutUs">About Us</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="">Find Books</NavLink>
+                                    <NavLink href="/Booklist">Find Books</NavLink>
                                 </NavItem>
-                                <NavItem>
-                                    <NavLink href="">Login</NavLink>
+                                {this.user ? <i class="fa-solid fa-user-check"></i> : <> <NavItem>
+                                    <NavLink href=""><i class="fa-regular fa-user"></i></NavLink>
                                 </NavItem>
-                                <NavItem>
-                                    <NavLink href="">Sign Up</NavLink>
-                                </NavItem>
+                                     </>}
+                                     <Login />
                             </Nav>
                         </Collapse>
                     </Container>
