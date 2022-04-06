@@ -11,7 +11,7 @@ import Feedback from "./feedback";
 
 const Header = () => {
   return (
-    <MDBContainer className='mt-4 text-center' fluid>
+    <MDBContainer className='mt-4 text-center rounded' fluid>
       <MDBRow>
         <MDBCol>
           <MDBJumbotron>

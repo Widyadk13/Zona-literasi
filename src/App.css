@@ -1,5 +1,5 @@
 .main-image {
-  background: url(https://wallpaperaccess.com/full/84248.png);
+  background: url(https://images.pexels.com/photos/5910395/pexels-photo-5910395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -7,6 +7,76 @@
   height: 80vh;
   position: relative;
   background-attachment: fixed;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-top: 5rem;
+  margin-bottom: 1.2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+  /* jangan ganggu */
+  background: url(https://images.pexels.com/photos/5910395/pexels-photo-5910395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  width: 100%;
+  height: 42vh;
+}
+
+.lead {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
+.h3,
+h3 {
+  font-size: 4.05rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.h1,
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: whitesmoke;
+}
+
+.h4,
+h4 {
+  font-size: larger;
+  text-align: justify;
+  margin-bottom: 0.5rem;
+  margin-left: 15px;
+  margin-right: 8px;
+  font-weight: 200;
+  line-height: 1.2;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 7rem;
+  font-size: 1.50rem;
+  font-weight: bold;
+  font-family: 'centurygothicregular';
+  color: whitesmoke;
+}
+
+.carousel-item {
+  width: 100% !important;
+  height: 600px !important;
 }
 
 .card-title {
@@ -24,12 +94,13 @@
 
 .lead {
   text-align: center;
+  font-size: 1.50rem;
+  font-family: 'centurygothicregular';
+  color: whitesmoke;
 }
 
-
-
 .modal-body {
- background-color: aqua;
+  background-color: aqua;
 }
 
 .w-100 {
@@ -39,58 +110,45 @@
 .font-small {
   background-color: #4f687c;
   color: white;
-
 }
 
-
 .text-md-left {
-text-align: center!important;
-
+  text-align: center !important;
 }
 
 .mt-1 {
-padding: 4rem 2rem;
-margin-bottom: 0rem;
-background-color: #e9ecef;
-border-radius: 0rem;
+  padding: 4rem 2rem;
+  margin-bottom: 0rem;
+  background-color: #e9ecef;
+  border-radius: 0rem;
 
 }
 
 .App {
-text-align: center;
+  text-align: center;
 }
 
 .bg-light {
-background-color: #c3cfdb!important;
+  background-color: #c3cfdb !important;
 }
 
 .footer {
-background-color: 	#ffcc00;
+  background-color: #ffcc00;
 }
 
 .navbar-light .navbar-nav .nav-link {
-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .btn-danger {
   color: #fff;
   background-color: #dc3545;
   border-color: #080808;
-  
 }
 
-.jumbotron {
-  padding: 2rem 1rem;
-  margin-top: 5rem;
-  margin-bottom: 1.2rem;
-  background-color: #e9ecef;
-  border-radius: 0.3rem;
-  /* jangan ganggu */
-  background: url(https://wallpaperaccess.com/full/84248.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  background-attachment: fixed;
-
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+  font-size: 22px;
+  font-weight: bolder;
 }
