@@ -19,7 +19,8 @@
     "react-router-dom": "^6.2.2",
     "react-scripts": "3.4.0",
     "react-toastify": "^1.4.3",
-    "reactstrap": "^8.4.1"
+    "reactstrap": "^8.4.1",
+    "styled-components": "^5.3.5"
   },
   "scripts": {
     "start": "react-scripts start",

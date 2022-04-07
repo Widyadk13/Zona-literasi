@@ -1,4 +1,5 @@
 import React from "react";
+import './Team.css'
 
 
 const Teams = () => {
@@ -8,7 +9,7 @@ const Teams = () => {
     <div className="container">
       <div className="row">
         <div className="col-lg-12 text-center">
-          <h2 className="section-heading text-uppercase">The Amazing Team</h2>
+          <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
           <h3 className="section-subheading text-muted">ZONA LITERASI</h3>
         </div>
       </div>

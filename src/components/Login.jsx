@@ -34,7 +34,6 @@ export default function Login() {
     console.log(user);
     return (
         <>
-
             {user ?
                 <GoogleLogout
                     clientId={clientId}
@@ -49,7 +48,6 @@ export default function Login() {
                     cookiePolicy={'single_host_origin'}
                 />
             }
-
         </>
     )
 }
