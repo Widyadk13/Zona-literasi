@@ -30,7 +30,7 @@ export default class Example extends React.Component {
                     <Container>
                         <NavbarBrand href="">
                             <img
-                                alt=""
+                                alt="Logo"
                                 src="https://drive.google.com/uc?export=view&id=1aAS1Js45TPgTWDEghLg5-d9crL-OgNo2"
                                 width="150"
                                 height="60"
