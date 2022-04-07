@@ -33,7 +33,7 @@ const Footer = () => {
                 <i class="fa-brands fa-whatsapp fa-2x"></i>
               </li>
               <li className="list-inline-item">
-                <i class="fa-brands fa-envelope fa-2x"></i>
+              <i class="fa-regular fa-envelope fa-2x"></i>
               </li>
               <br/>
               <li className="list-inline-item">
