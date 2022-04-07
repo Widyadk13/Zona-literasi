@@ -41,7 +41,7 @@ export default class Example extends React.Component {
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
-                                    <NavLink href="/LandingPage">Home</NavLink>
+                                    <NavLink href="/Home">Home</NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="/AboutUs">About Us</NavLink>
@@ -49,11 +49,12 @@ export default class Example extends React.Component {
                                 <NavItem>
                                     <NavLink href="/Booklist">Find Books</NavLink>
                                 </NavItem>
-                                {this.user ? <i class="fa-solid fa-user-check"></i> : <> <NavItem>
-                                    <NavLink href=""><i class="fa-regular fa-user"></i></NavLink>
-                                </NavItem>
-                                     </>}
-                                     <Login />
+                                {this.user ?
+                                    <a href="logout">
+                                        <i class="fa-solid fa-user-check"></i>
+                                    </a>
+                                    : <> <Login />
+                                    </>}
                             </Nav>
                         </Collapse>
                     </Container>

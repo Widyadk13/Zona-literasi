@@ -8,7 +8,7 @@ import {
 } from "mdbreact";
 
 
-const CarouselPage = () => {
+const LandingPage = () => {
   return (
   
       <MDBCarousel
@@ -64,4 +64,4 @@ const CarouselPage = () => {
   );
 }
 
-export default CarouselPage;
+export default LandingPage;

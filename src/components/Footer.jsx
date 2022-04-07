@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Footer = () => {
   return (
     <footer className="footer">
@@ -33,6 +32,10 @@ const Footer = () => {
               <li className="list-inline-item">
                 <i class="fa-brands fa-whatsapp fa-2x"></i>
               </li>
+              <li className="list-inline-item">
+                <i class="fa-brands fa-envelope fa-2x"></i>
+              </li>
+              <br/>
               <li className="list-inline-item">
                 <a href="#something">Contact us</a>
               </li>
