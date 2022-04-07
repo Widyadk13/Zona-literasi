@@ -5,6 +5,7 @@ import Landingpage from './components/LandingPage';
 import Header from './components/Header';
 import Bookslist from './components/booksList';
 import Footer from './components/Footer';
+import Teams from './components/OurTeam';
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <Landingpage />
       <Header />
       <Bookslist />
+      <Teams />
       <Footer />
     </div>
   );
