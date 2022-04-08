@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Bookslist from "./components/booksList";
-import Footer from "./components/Footer";
+import Navbar from "./components/Global/Navbar";
+import Bookslist from "./components/Search/booksList";
+import Footer from "./components/Global/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./screen/Home";
 import About from "./screen/About";
-import LogOut from "./components/LogOut";
+import LogOut from "./components/Global/LogOut";
 
 function App() {
   return (
