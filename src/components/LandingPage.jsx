@@ -41,7 +41,7 @@ const LandingPage = () => {
               />
             </MDBView>
             <MDBCarouselCaption>
-            <h3 className="h3-responsive">lots Of Books And Lets Reading</h3>
+            <h3 className="h3-responsive">Lots Of Books And Lets Reading</h3>
             <h6>Kami menyediakan lebih dari 50,000 ebook yang dapat diakses secara gratis oleh siapapun dan dimanapun</h6>
           </MDBCarouselCaption>
           </MDBCarouselItem>
@@ -54,7 +54,7 @@ const LandingPage = () => {
               />
             </MDBView>
             <MDBCarouselCaption>
-            <h3 className="h3-responsive">Ultimate Guide To Free Ebooks</h3>
+            <h3 className="h3-responsive">Ultimate Guide to Free Ebooks</h3>
             <h6>Melalui website ini anda bisa mengakses berbagai jenis buka seusai dengan yang kamu inginkan</h6>
           </MDBCarouselCaption>
           </MDBCarouselItem>
