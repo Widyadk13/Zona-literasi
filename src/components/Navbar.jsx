@@ -26,7 +26,7 @@ export default class Example extends React.Component {
         return (
 
             <div class="navbar-light bg-white fixed-top mediumnavigation nav-up">
-                <Navbar color="warning" light expand="md">
+                <Navbar color="light" light expand="md">
                     <Container>
                         <NavbarBrand href="">
                             <img
@@ -41,7 +41,7 @@ export default class Example extends React.Component {
                         <Collapse isOpen={this.state.isOpen} navbar>
                             <Nav className="ml-auto" navbar>
                                 <NavItem>
-                                    <NavLink href="/Home">Home</NavLink>
+                                    <NavLink href="/">Home</NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="/AboutUs">About Us</NavLink>

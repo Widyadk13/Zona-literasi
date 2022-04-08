@@ -4,7 +4,7 @@ function TitleTrending() {
     return (
         <div class="justify-content-sm-lg-xl-between mt-5 mb-5">
             <h2>
-                Trending Book
+                Trending Books
             </h2>
         </div>
     )

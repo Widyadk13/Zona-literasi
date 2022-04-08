@@ -9,8 +9,8 @@ const Teams = () => {
     <div className="container">
       <div className="row">
         <div className="col-lg-12 text-center">
-          <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
-          <h3 className="section-subheading text-muted">ZONA LITERASI</h3>
+          <h2 className="section-heading text-uppercase" style={{color:"#456672"}}>Our Amazing Team</h2>
+          <h2 className="section-subheading text-muted">ZONA LITERASI</h2>
         </div>
       </div>
       
@@ -18,22 +18,22 @@ const Teams = () => {
         <div className="col-sm-3">
           <div className="team-member">
             <img className="mx-auto rounded-circle" src="https://fashionsista.co/wallpaper/wallpaper/20210811/foto-cowok-keren-buat-profil-fb-foto-foto-keren-preview.jpg" width="100px" height="150px" alt=""/>
-            <h4 className="text-center">Dandy setiawan</h4>
+            <h4 className="text-center">Dandy Setiawan</h4>
             <p className="text-muted">Lead Designer</p>
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
                 <a href="#something">
-                  <i className="fa-brands fa-twitter fa-1x"></i>
+                  <i className="fa-brands fa-twitter fa-2x"></i>
                 </a>
               </li>
               <li className="list-inline-item">
                 <a href="#something">
-                  <i className="fa-brands fa-facebook fa-1x"></i>
+                  <i className="fa-brands fa-facebook fa-2x"></i>
                 </a>
               </li>
               <li className="list-inline-item">
                 <a href="#something">
-                  <i className="fa-brands fa-instagram-square fa-1x"></i>
+                  <i className="fa-brands fa-instagram-square fa-2x"></i>
                 </a>
               </li>
             </ul>
@@ -47,17 +47,17 @@ const Teams = () => {
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
               <a href="#something">
-                  <i className="fa-brands fa-twitter fa-1x"></i>
+                  <i className="fa-brands fa-twitter fa-2x"></i>
                 </a>
               </li>
               <li className="list-inline-item">
                 <a href="#something">
-                  <i className="fa-brands fa-facebook fa-1x"></i>
+                  <i className="fa-brands fa-facebook fa-2x"></i>
                 </a>
               </li>
               <li className="list-inline-item">
                 <a href="#something">
-                  <i className="fa-brands fa-instagram-square fa-1x"></i>
+                  <i className="fa-brands fa-instagram-square fa-2x"></i>
                 </a>
               </li>
             </ul>
@@ -66,22 +66,22 @@ const Teams = () => {
         <div className="col-sm-3">
           <div className="team-member">
             <img className="mx-auto rounded-circle" src="https://cf.shopee.co.id/file/425257bba66f9714f22f34594dfbb645"width="100px" height="150px" alt=""/>
-            <h4 className="text-center">Prindayu</h4>
+            <h4 className="text-center">Prindayu Arum</h4>
             <p className="text-muted">Lead Developer</p>
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
               <a href="#something">
-                  <i className="fa-brands fa-twitter fa-1x"></i>
+                  <i className="fa-brands fa-twitter fa-2x"></i>
                 </a>
               </li>
               <li className="list-inline-item">
                 <a href="#something">
-                  <i className="fa-brands fa-facebook fa-1x"></i>
+                  <i className="fa-brands fa-facebook fa-2x"></i>
                 </a>
               </li>
               <li className="list-inline-item">
                 <a href="#something">
-                  <i className="fa-brands fa-instagram-square fa-1x"></i>
+                  <i className="fa-brands fa-instagram-square fa-2x"></i>
                 </a>
               </li>
             </ul>
@@ -95,17 +95,17 @@ const Teams = () => {
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
               <a href="#something">
-                  <i className="fa-brands fa-twitter fa-1x"></i>
+                  <i className="fa-brands fa-twitter fa-2x"></i>
                 </a>
               </li>
               <li className="list-inline-item">
                 <a href="#something">
-                  <i className="fa-brands fa-facebook fa-1x"></i>
+                  <i className="fa-brands fa-facebook fa-2x"></i>
                 </a>
               </li>
               <li className="list-inline-item">
                 <a href="#something">
-                  <i className="fa-brands fa-instagram-square fa-1x"></i>
+                  <i className="fa-brands fa-instagram-square fa-2x"></i>
                 </a>
               </li>
             </ul>
