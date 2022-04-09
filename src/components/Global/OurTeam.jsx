@@ -14,8 +14,8 @@ const Teams = () => {
         </div>
       </div>
       
-      <div className="row">
-        <div className="col-sm-3">
+      <div className="foto">
+        <div className="">
           <div className="team-member">
             <img className="mx-auto rounded-circle" src="https://fashionsista.co/wallpaper/wallpaper/20210811/foto-cowok-keren-buat-profil-fb-foto-foto-keren-preview.jpg" width="100px" height="150px" alt=""/>
             <h4 className="text-center">Dandy Setiawan</h4>
@@ -39,7 +39,31 @@ const Teams = () => {
             </ul>
           </div>
         </div>
-        <div className="col-sm-3">
+        <div className="">
+          <div className="team-member">
+            <img className="mx-auto rounded-circle" src="https://fashionsista.co/wallpaper/wallpaper/20210811/foto-cowok-keren-buat-profil-fb-foto-foto-keren-preview.jpg" width="100px" height="150px" alt=""/>
+            <h4 className="text-center">Muhammad Rifky</h4>
+            <p className="text-muted">Lead Designer</p>
+            <ul className="list-inline social-buttons">
+              <li className="list-inline-item">
+                <a href="#something">
+                  <i className="fa-brands fa-twitter fa-2x"></i>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="#something">
+                  <i className="fa-brands fa-facebook fa-2x"></i>
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="#something">
+                  <i className="fa-brands fa-instagram-square fa-2x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="">
           <div className="team-member">
             <img className="mx-auto rounded-circle" src="https://i.pinimg.com/originals/16/a7/22/16a722d6a5881d8fd6b24ac3ea32dd0e.jpg" width="100px" height="150px" alt=""/>
             <h4 className="text-center">Widya Dwi Kusuma</h4>
@@ -63,7 +87,7 @@ const Teams = () => {
             </ul>
           </div>
         </div>
-        <div className="col-sm-3">
+        <div className="">
           <div className="team-member">
             <img className="mx-auto rounded-circle" src="https://cf.shopee.co.id/file/425257bba66f9714f22f34594dfbb645"width="100px" height="150px" alt=""/>
             <h4 className="text-center">Prindayu Arum</h4>
@@ -87,7 +111,7 @@ const Teams = () => {
             </ul>
           </div>
         </div>
-      <div className="col-sm-3">
+      <div className="">
           <div className="team-member">
             <img className="mx-auto rounded-circle" src="https://images.tokopedia.net/img/cache/500-square/product-1/2019/9/22/17497718/17497718_d1896fc4-867e-4564-b481-623800c33341_835_835" width="100px" height="150px" alt=""/>
             <h4 className="text-center">Imam Apriyan</h4>

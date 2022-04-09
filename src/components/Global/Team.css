@@ -1,0 +1,25 @@
+#team {
+    padding-top: 12px;
+    margin-top: 50px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#team {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 0;
+}
+
+@media screen and (max-width: 960px) {
+    .foto {
+        flex-direction: column;
+    }
+}

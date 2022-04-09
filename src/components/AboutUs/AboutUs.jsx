@@ -1,4 +1,6 @@
 import React from 'react'
+import './AboutUs.css'
+
 
 function AboutUs() {
     return (
@@ -13,14 +15,14 @@ function AboutUs() {
                                 About Us
                             </h2>
                             <br />
-                            <div class="d-flex justify-content-sm-lg-xl-around">
+                            <div class="d-flex">
                                 <div href="">
                                     <img
                                         alt="ebook"
                                         src="https://images.pexels.com/photos/1329571/pexels-photo-1329571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                                        width="500"
-                                        height="310"
-                                        className="d-inline-block align-top rounded-pill"
+                                        width="2000"
+                                        height="1000"
+                                        className="img-fluid rounded-pill"
                                     />
                                 </div>
                                 <h4>
