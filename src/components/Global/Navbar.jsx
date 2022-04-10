@@ -1,6 +1,5 @@
 import React from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Container, } from 'reactstrap';
-import Login from "./Login";
 import './Navbar.css'
 
 
@@ -47,11 +46,13 @@ export default class Example extends React.Component {
                                 <NavItem>
                                     <NavLink href="/AboutUs">About Us</NavLink>
                                 </NavItem>
-                                  {this.user ? 
+                                  {this.user ?
                                     <NavItem>
-                                    <NavLink href="/Booklist">Find Books  </NavLink>  
+                                    <NavLink href="/Booklist">Find Books</NavLink> 
                                     <div class="navbar2" >
-                                    <Login />
+                                    <a href="logout">
+                                        <i class="fa-solid fa-user-check"></i>
+                                    </a> 
                                     </div>
                                     </NavItem>
                                     : <>  
