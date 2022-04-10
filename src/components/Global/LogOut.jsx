@@ -13,7 +13,7 @@ function LogOut() {
 
             <div class="rounded">
                    
-                   <MDBCard className="img-fluid">
+                   <MDBCard className="imgLog">
                      <MDBCardBody className="imgBtn">
                        <MDBBtn > <Login /> </MDBBtn>
                      </MDBCardBody>

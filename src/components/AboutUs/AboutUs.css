@@ -7,10 +7,9 @@
     padding-top: 0;
 }
 
-img {
+/* /* img {
     width: 500;
-    height: 200;
-}
+    height: 200; */
 
 @media screen and (max-width: 960px) {
     .d-flex {
