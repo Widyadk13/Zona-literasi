@@ -17,7 +17,7 @@ function LogOut() {
                      <MDBCardImage className="img-fluid" src="https://img.idxchannel.com/media/700/images/idx/2022/02/23/Buku_Bisnis_Terbaik.jpg"
                         />
                      <MDBCardBody>
-                       <MDBBtn href="#"><Login /></MDBBtn>
+                       <MDBBtn> <Login /> </MDBBtn>
                      </MDBCardBody>
                    </MDBCard>
             </div>
