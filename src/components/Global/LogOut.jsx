@@ -4,20 +4,18 @@ import {
   MDBBtn,
   MDBCard,
   MDBCardBody,
-  MDBCardImage,
   
 } from 'mdbreact';
+import './LogOut.css'
 
 function LogOut() {
     return (
 
-            <div class="pt-5 pb-5 rounded">
+            <div class="rounded">
                    
-                   <MDBCard>
-                     <MDBCardImage className="img-fluid" src="https://img.idxchannel.com/media/700/images/idx/2022/02/23/Buku_Bisnis_Terbaik.jpg"
-                        />
-                     <MDBCardBody>
-                       <MDBBtn> <Login /> </MDBBtn>
+                   <MDBCard className="img-fluid">
+                     <MDBCardBody className="imgBtn">
+                       <MDBBtn > <Login /> </MDBBtn>
                      </MDBCardBody>
                    </MDBCard>
             </div>

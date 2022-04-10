@@ -6,7 +6,7 @@ import {
   MDBView,
   MDBCarouselCaption,
 } from "mdbreact";
-
+import "./LandingPage.css"
 
 const LandingPage = () => {
   return (
