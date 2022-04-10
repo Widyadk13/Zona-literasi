@@ -11,17 +11,17 @@ const Footer = () => {
           <div className="col-md-4">
             <ul className="list-inline social-buttons">
               <li className="list-inline-item">
-                <a href="#something">
+                <a href=" https://twitter.com/zonaliterasi?t=QUesRooUw4GjUrNK2e8AWw&s=08">
                   <i class="fa-brands fa-twitter fa-3x"></i>
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="#something">
+                <a href="https://www.facebook.com/zonaliterasi/">
                   <i class="fa-brands fa-facebook fa-3x"></i>
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="#something">
+                <a href="https://www.instagram.com/zliterasi/">
                   <i class="fa-brands fa-instagram-square fa-3x"></i>
                 </a>
               </li>
@@ -30,10 +30,14 @@ const Footer = () => {
           <div className="col-md-4">
             <ul className="list-inline quicklinks">
               <li className="list-inline-item">
+              <a href="https://api.whatsapp.com/send?phone=081219540709">
                 <i class="fa-brands fa-whatsapp fa-2x" style={{color: "#325288"}}></i>
+                </a>
               </li>
               <li className="list-inline-item">
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdokjHqlIeZAuIcQR1IXbHBVsJmgRuJFyKCRBsV35VhhYux_w/viewform?embedded=true">
               <i class="fa-regular fa-envelope fa-2x" style={{color: "#325288"}}></i>
+              </a>
               </li>
               <br/>
               <li className="list-inline-item" >
