@@ -1,6 +1,7 @@
 import React from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Container, } from 'reactstrap';
 import Login from "./Login";
+import './Navbar.css'
 
 
 export default class Example extends React.Component {
@@ -46,15 +47,20 @@ export default class Example extends React.Component {
                                 <NavItem>
                                     <NavLink href="/AboutUs">About Us</NavLink>
                                 </NavItem>
-                                <NavItem>
-                                    <NavLink href="/Booklist">Find Books</NavLink>
+                                  {this.user ? 
+                                    <NavItem>
+                                    <NavLink href="/Booklist">Find Books  </NavLink>  
+                                    <div class="navbar2" >
+                                    <Login />
+                                    </div>
+                                    </NavItem>
+                                    : <>  
+                                    <NavItem>
+                                    <NavLink href="logout">Find Books</NavLink>
                                 </NavItem>
-                                {this.user ?
-                                    <a href="logout">
-                                        <i class="fa-solid fa-user-check"></i>
-                                    </a>
-                                    : <> <Login />
-                                    </>}
+                                {/* <Login />  */}
+                                   </>}
+                                   
                             </Nav>
                         </Collapse>
                     </Container>
