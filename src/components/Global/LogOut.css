@@ -1,0 +1,15 @@
+.imgLog {
+    display: flex;
+    height: 16.7cm;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("https://img.idxchannel.com/media/700/images/idx/2022/02/23/Buku_Bisnis_Terbaik.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.imgBtn {
+    display: inline-flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+}

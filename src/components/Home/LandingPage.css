@@ -1,0 +1,8 @@
+@media screen and (max-width: 960px) {
+    .h3-responsive {
+        font-size: medium;
+    }
+    h6 {
+        font-size: small;
+    }
+}

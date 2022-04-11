@@ -1,0 +1,22 @@
+.navbar2 {
+    margin-top:-50px ;
+    margin-right: -150px;
+}
+
+.namelogin {
+    color: #5ca0d3 !important;
+    margin-right: -100px;
+    margin-top:-39px ;
+    font-size: 20px;
+  }
+
+
+
+@media screen and (max-width: 960px) {
+    .namelogin {
+    
+    margin-top:-39px ;
+    font-size: 20px;
+    padding-right: 430px;
+}
+}
