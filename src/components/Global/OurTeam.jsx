@@ -17,7 +17,7 @@ const Teams = () => {
       <div className="foto">
       <div className="">
           <div className="team-member">
-            <img className="mx-auto rounded-circle" src="https://files.fm/thumb_show.php?i=p3ugvq942" width="100px" height="150px" alt=""/>
+            <img className="ftoTeam mx-auto rounded-circle" src="https://files.fm/thumb_show.php?i=p3ugvq942" width="100px" height="150px" alt=""/>
             <h4 className="text-center">Widya Dwi Kusuma</h4>
             <p className="text-muted">Lead Developer</p>
             <ul className="list-inline social-buttons">
@@ -41,7 +41,7 @@ const Teams = () => {
         </div>
         <div className="">
           <div className="team-member">
-            <img className="mx-auto rounded-circle" src="https://files.fm/thumb_show.php?i=dgmng3qsf" width="100px" height="150px" alt=""/>
+            <img className="ftoTeam mx-auto rounded-circle" src="https://files.fm/thumb_show.php?i=dgmng3qsf" width="100px" height="150px" alt=""/>
             <h4 className="text-center">Dandy Setiawan</h4>
             <p className="text-muted">Lead Marketer</p>
             <ul className="list-inline social-buttons">
@@ -65,7 +65,7 @@ const Teams = () => {
         </div>
         <div className="">
           <div className="team-member">
-            <img className="mx-auto rounded-circle" src="https://files.fm/thumb_show.php?i=ga8m4eymc" width="100px" height="150px" alt=""/>
+            <img className="ftoTeam mx-auto rounded-circle" src="https://files.fm/thumb_show.php?i=ga8m4eymc" width="100px" height="150px" alt=""/>
             <h4 className="text-center">Muhammad Rifky</h4>
             <p className="text-muted">Lead Editor</p>
             <ul className="list-inline social-buttons">
@@ -89,7 +89,7 @@ const Teams = () => {
         </div>
         <div className="">
           <div className="team-member">
-            <img className="mx-auto rounded-circle" src="https://files.fm/thumb_show.php?i=zpcg7hcwa"width="100px" height="150px" alt=""/>
+            <img className="ftoTeam mx-auto rounded-circle" src="https://files.fm/thumb_show.php?i=zpcg7hcwa"width="100px" height="150px" alt=""/>
             <h4 className="text-center">Imam Apriyan</h4>
             <p className="text-muted">Lead Community</p>
             <ul className="list-inline social-buttons">
@@ -114,7 +114,7 @@ const Teams = () => {
         
       <div className="">
           <div className="team-member">
-            <img className="mx-auto rounded-circle" src="https://files.fm/thumb_show.php?i=ava4huptm" width="100px" height="150px" alt=""/>
+            <img className="ftoTeam mx-auto rounded-circle" src="https://files.fm/thumb_show.php?i=ava4huptm" width="100px" height="150px" alt=""/>
             <h4 className="text-center">Prindayu Arum</h4>
             <p className="text-muted">Lead Designer</p>
             <ul className="list-inline social-buttons">

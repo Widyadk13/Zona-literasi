@@ -3,6 +3,11 @@
     margin-top: 50px;
     padding-right: 0;
     padding-left: 0;
+    
+}
+
+.ftoTeam  {
+    object-fit: cover;
 }
 
 #team {
@@ -23,3 +28,4 @@
         flex-direction: column;
     }
 }
+

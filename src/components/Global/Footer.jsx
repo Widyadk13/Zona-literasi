@@ -30,7 +30,7 @@ const Footer = () => {
           <div className="col-md-4">
             <ul className="list-inline quicklinks">
               <li className="list-inline-item">
-              <a href="https://api.whatsapp.com/send?phone=081219540709">
+              <a href="https://api.whatsapp.com/send?phone=085955306694">
                 <i class="fa-brands fa-whatsapp fa-2x" style={{color: "#325288"}}></i>
                 </a>
               </li>
@@ -41,7 +41,7 @@ const Footer = () => {
               </li>
               <br/>
               <li className="list-inline-item" >
-                <a href="#something" style={{color: "#35589A"}}>Contact us</a>
+                <a href="https://api.whatsapp.com/send?phone=085955306694" style={{color: "#35589A"}}>Contact us</a>
               </li>
             </ul>
           </div>

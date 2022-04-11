@@ -12,6 +12,8 @@ export default class Example extends React.Component {
             isOpen: false
         };
         this.user = localStorage.getItem("token")
+        this.name = localStorage.getItem("name")
+
     }
 
     toggle() {
@@ -52,6 +54,8 @@ export default class Example extends React.Component {
                                     <div class="navbar2" >
                                     <a href="logout">
                                         <i class="fa-solid fa-user-check"></i>
+                                        <div className='namelogin'><h9> {this.name} </h9></div>
+                                        
                                     </a> 
                                     </div>
                                     </NavItem>

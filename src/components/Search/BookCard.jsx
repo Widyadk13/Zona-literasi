@@ -57,8 +57,8 @@ const BookCard = ({
         </div>
         <div className='modal-footer'>
           <ModalFooter>
-            <Button color="outline-secondary" href={previewLink}>Read More</Button>{' '}
-            <Button color="outline-secondary" href={infoLink}>Info Link</Button>
+            <Button color="outline-secondary" href={previewLink} target="_blank" > Read More</Button>{' '}
+            <Button color="outline-secondary" href={infoLink} target="_blank" >Info Link</Button>
           </ModalFooter>
         </div>
       </Modal>
