@@ -24,7 +24,8 @@ const Header = () => {
               <Feedback />
             </p>
             <hr className="my-2" />
-            <p className="lead">FIND YOUR BOOKS HERE!!<i class="fa-solid fa-cloud-arrow-down"></i>
+            <p className="lead"><a href="logout">FIND YOUR BOOKS HERE!!</a>
+            <i class="fa-solid fa-cloud-arrow-down"></i>
             </p>
           </MDBJumbotron>
         </MDBCol>

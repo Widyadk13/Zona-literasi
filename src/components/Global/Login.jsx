@@ -11,10 +11,13 @@ export default function Login() {
 
     const loginSuccess = (res) => {
         console.log("LogSuccess : ", res);
-        localStorage.setItem("token", res.tokenId)
-        window.location.reload();
+         localStorage.setItem("token", res.tokenId)
+        localStorage.setItem("name",res.profileObj.givenName)
+         window.location.reload();
         setLoginButton(false);
         setLogoutButton(true);
+        console.log(res.profileObj.givenName);
+        
     }
 
     const failureSuccess = (res) => {
